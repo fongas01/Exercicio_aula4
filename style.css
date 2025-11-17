@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body{
+    padding-left: 22px;
+    padding-right: 22px;
+    width: 870px;
+    height: 100vh;
+}
+
+header img {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 826px;
+    height: 454px;
+}
+
+h1{
+    color: #FFB300;
+    font: normal normal 900 89px/79px Montserrat;
+    font-size:95px;
+    font-style: normal;
+    line-height: 1em;
+    padding-bottom: 35px;
+}
+
+main .autor{
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content:end;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+
+main p{
+    padding-bottom: 20px;
+}
+
+hr{ 
+    border: solid;
+    border-top: 0.8px solid #fcf6f6d2;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+div{
+    text-transform: uppercase;
+}
+
+div .preparo{
+    padding-bottom: 20px;;
+}
+
+h3{
+    font: normal normal 900 89px/79px Montserrat;
+    color: #FFB300;
+    font-size:30px;
+    font-style: normal;        
+}
+
+section ul, ol{
+    margin-left: 48px;
+}
+
+section ul li{
+    padding-bottom: 8px;
+}
+
+section ol li{
+    padding-bottom: 30px;
+}
+
+#video, .voltar{
+    margin-bottom: 30px;
+}
+
