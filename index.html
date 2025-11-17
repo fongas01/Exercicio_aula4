@@ -4,25 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício css</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body>
-   <main>
-        <img src="/img/strogonoff.png" width="374" alt="imagem principal">
-        <h1>Strogonoff de Frango</h1>
-        <p class="autor">Autor: Fernando</p>
+    <body>
+   <header>
+        <img src="/img/strogonoff.png" alt="imagem principal">
+        <h1>Strogonoff de<br> Frango</h1>
+    </header>
+    <main> 
+        <p class="autor"><strong>Autor: Fernando</strong></p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas reprehenderit voluptatibus, rerum veritatis dolorum hic eum iste voluptates nemo labore?
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, tenetur reiciendis! Officia quis aut nisi, culpa ipsam dolorum! Error atque recusandae ipsa ea nisi, incidunt consequuntur dolore? Facere, sapiente nobis?</p>
-        <hr class="divider">
-
-        <div>
-            <p class="strong">60 MINUTOS</p>
-            <p class="strong">10 PORÇOES</p>
-        </div>
-            
-        <hr class="divider">
     </main> 
 
-    <section id="ingredientes">
+    <hr>
+
+    <div>
+        <p class="preparo"><strong>Preparo:</strong> 60 MINUTOS</p>
+        <p><strong>Rendimento:</strong> 10 PORÇOES</p>
+    </div>
+
+    <hr>
+
+    <section>
         <h3>Ingredientes</h3>
         <ul>
             <li>3 peitos de frango cortados em cubo</li>
@@ -38,9 +45,10 @@
             <li>batata palha a gosto</li>
         </ul>
     </section>
+    
+    <hr>
 
-
-    <section id="preparo">
+    <section>
         <h3>Modo de Preparo</h3>
         <ol>
             <li>Em uma panela, misture o frango, alho,  maonese, o sal e a pimenta,</li>
@@ -48,16 +56,16 @@
             <li>Junte o frango temperado ate que esteja dourado</li>
             <li>Adicione os cogumelos, ketchup e mostarde,</li>
             <li>Incorpore o creme de leite e retira do digo antes de ferver. </li>
-            <li>Sirva com arroz branco e batata palha</li>
+            <li>Sirva com arroz branco e batata palha.</li>
         </ol>
     </section>
 
     <section id="video">
-        <iframe src="" frameborder="0"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_zzqO_HfaJw?si=qOFWqMChh26af9hw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </section>
 
     <p classe="voltar">
-        VOLTAR PARA O TOPO
+        <a href="#">VOLTAR PARA O TOPO</a>
     </p>
    
 </body>
